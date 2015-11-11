@@ -1,0 +1,1 @@
+Open VSProj/VSProj.sln with Visual Stuido and hit run
