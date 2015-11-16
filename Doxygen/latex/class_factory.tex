@@ -1,0 +1,40 @@
+\hypertarget{class_factory}{}\section{Factory Class Reference}
+\label{class_factory}\index{Factory@{Factory}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_equipment}{Equipment} $\ast$ \hyperlink{class_factory_a616390c764e9f194c46f82f79ba94393}{make\+\_\+\+Equipment} (int choice, string name)
+\begin{DoxyCompactList}\small\item\em A prototype creation Method taking two arguments and returning an class of Equipment$\ast$ type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_factory}{Factory}, holds a series of registered prototype classes. These classes are all subclasses of \hyperlink{class_equipment}{Equipment}. \hyperlink{class_factory}{Factory} is used to generate new instances with clone() 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_factory_a616390c764e9f194c46f82f79ba94393}{}\index{Factory@{Factory}!make\+\_\+\+Equipment@{make\+\_\+\+Equipment}}
+\index{make\+\_\+\+Equipment@{make\+\_\+\+Equipment}!Factory@{Factory}}
+\subsubsection[{make\+\_\+\+Equipment(int choice, string name)}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Equipment} $\ast$ Factory\+::make\+\_\+\+Equipment (
+\begin{DoxyParamCaption}
+\item[{int}]{choice, }
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_factory_a616390c764e9f194c46f82f79ba94393}
+
+
+A prototype creation Method taking two arguments and returning an class of Equipment$\ast$ type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & an integer argument Indicating which registered prototype to use. \\
+\hline
+{\em name} & used to set the instance name of the newly generated object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new prototyped object, with instance name set.\+All subclasses of \hyperlink{class_equipment}{Equipment} must have clone functionality 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+V\+S\+Proj/\+V\+S\+Proj/V\+S\+Proj.\+cpp\end{DoxyCompactItemize}
