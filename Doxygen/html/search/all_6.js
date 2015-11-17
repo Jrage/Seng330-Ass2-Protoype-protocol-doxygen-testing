@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['name',['../class_equipment.html#a65c3c95bb543fd763fe6bdf7587c1d33',1,'Equipment']]]
+  ['make_5fequipment',['make_Equipment',['../class_factory.html#a616390c764e9f194c46f82f79ba94393',1,'Factory']]]
 ];

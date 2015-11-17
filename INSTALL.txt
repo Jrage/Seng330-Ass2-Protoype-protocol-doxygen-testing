@@ -1,1 +1,6 @@
-Open VSProj/VSProj.sln with Visual Stuido and hit run
+Requirments:
+	Visual Studio 2015. C++ librarys that come with it.
+
+With Visual Studio: open up the project from the file  Seng330-Ass2-Protoype-protocol-doxygen-testing\VSProj\VSProj.sln
+
+To Run, simply use VS's run button.
